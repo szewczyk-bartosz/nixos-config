@@ -73,14 +73,14 @@
   };
 
   programs.firefox.enable = true;
-  programs.hyprland.enable = true;
+  #programs.hyprland.enable = true;
 
   # this is where gnome goes
-  #services.xserver = {
-  #  enable = true;
-  #  displayManager.gdm.enable = true;
-  #  desktopManager.gnome.enable = true;
-  #};
+  services.xserver = {
+    enable = true;
+    displayManager.gdm.enable = true;
+    desktopManager.gnome.enable = true;
+  };
 
   # List packages installed in system profile.
   # You can use https://search.nixos.org/ to find more packages (and options).
