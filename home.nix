@@ -88,6 +88,8 @@
 
 
   programs.fastfetch.enable = true;
+  programs.git.userName = "szewczyk-bartosz";
+  programs.git.userEmail = "cheryllamb123098@protonmail.com";
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
